@@ -1,0 +1,46 @@
+# Python bytecode and cache
+**/__pycache__/*
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# PyCharm project settings
+**/.idea/*
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+debug.log
+
+# Pygame cache (if any)
+pygame_cache/
+
+# Compiled distributions (wheel, egg)
+*.egg-info/
+*.whl
+dist/
+build/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Test coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# Local development settings
+*.env
+config.json
+settings_local.py
